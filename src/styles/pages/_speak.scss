@@ -1,0 +1,20 @@
+.speak{
+    .speakContent {
+        width: 100%;
+        min-height: $minHeight;
+        background-color: $color-1;
+        border-radius: $borderRadius;
+        margin-left: 1%;
+        .langueid {
+            margin-top: 5%;
+            margin-left: 5%;
+            margin-right: 5%;
+            h3{
+                color: $color-5;
+            }
+            p {
+                color: $white;
+            }
+        }
+    }
+}
