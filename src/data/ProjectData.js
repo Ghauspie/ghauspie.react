@@ -32,7 +32,7 @@ export const ProjectData= [
         prod: 'http://php.ghauspie.fr',
     },
     {
-        id:3,
+        id:4,
         name: 'ghauspie.fr',
         Languages: ['HTML','React','CSS'],
         languagesIcons:['fab fa-react','fab fa-css3-alt','fab fa-html5'],
@@ -40,6 +40,16 @@ export const ProjectData= [
         info: 'Mon Site C.V Portfolio refait avec react ',
         iframe:'http://ghauspie.fr',
         prod: 'http://ghauspie.fr',
+    },
+        {
+        id:5,
+        name: 'ghauspie.fr',
+        Languages: ['HTML','JS','CSS','JSON'],
+        languagesIcons:['fab fa-js-square','fab fa-css3-alt','fab fa-html5'],
+        source: 'https://thibaultmontois.github.io/SJDR/public/',
+        info: 'Mon Site C.V Portfolio refait avec react ',
+        iframe:'https://thibaultmontois.github.io/SJDR/public/',
+        prod: 'https://thibaultmontois.github.io/SJDR/public/',
     },
 
 ]
