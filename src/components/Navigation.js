@@ -8,6 +8,7 @@ const Navigation = () => {
         <div className="sidebar">
             <div className="id">
                 <div className="idContent">
+                 {/* eslint-disable-next-line*/}
                     <img src={me} alt="Picture of Guillaume Hauspie" />  
                     <h3>Guillaume HAUSPIE</h3>
                 </div>

@@ -11,7 +11,7 @@ class Project extends Component {
             showInfo:!this.state.showInfo
         })
     }
-
+    
     render() {
         console.log(this.props);
         let {name, languagesIcons, source, info, iframe, prod} =this.props.item;
@@ -21,6 +21,7 @@ class Project extends Component {
                     {languagesIcons.map(icon => <i className={icon} key={icon}></i>)}
                 </div>
                 <h3 onClick={this.handleinfo}>{name}</h3>
+                {/* eslint-disable-next-line */}
                 <iframe src={iframe}/>
                 <span className="infos" onClick={this.handleinfo}>
                     <i className="fas fa-plus-circle" ></i>

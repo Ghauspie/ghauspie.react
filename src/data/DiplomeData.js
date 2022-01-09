@@ -1,7 +1,7 @@
 export const DiplomeData= [
     {
         id:1,
-        Title:'Diplôme \« programmeur analyste en Micro-informatique \» CNFDI à Paris',
+        Title:'Diplôme « programmeur analyste en Micro-informatique » CNFDI à Paris',
         Date: '2008',
         Commentaire:'',
     },
